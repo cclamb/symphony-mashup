@@ -1,0 +1,3 @@
+class Subject < Hash
+  
+end

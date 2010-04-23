@@ -1,0 +1,10 @@
+>> def foo(klass)
+>> klass.superclass ? foo(klass.superclass) << klass : [] << klass
+>> end
+
+def Zip < Array
+end
+
+z=Zip.new
+
+foo(z.class) & foo([].class) - [Object]

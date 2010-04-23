@@ -1,0 +1,10 @@
+
+* Refactor actions, activities, permissions, associating with correct components(do this second to last)
+* Move context compatibility check to license (do this last)
+* Flesh out license compatibility and interface compatibility checks (in EM class)
+* Flesh out usage check (in License class)
+* Implement Environment, Subject, and Resource classes/heirarchies, integrating w/ checks
+* Implement History
+* Implement case with restricted activity constraints
+* Document and Publish (on web, via bitbucket)
+* Review

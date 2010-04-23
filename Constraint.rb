@@ -1,0 +1,5 @@
+class Constraint
+
+	
+
+end
