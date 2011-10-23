@@ -1,4 +1,4 @@
-require 'Activity'
+require_relative 'Activity'
 
 class RestrictedActivity < Activity
 

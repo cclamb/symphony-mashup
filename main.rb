@@ -1,11 +1,11 @@
 # Eventually the ruby main loop.
-require 'EnforcementMechanism'
-require 'Action'
-require 'Context'
-require 'Interpreter'
-require 'RestrictedActivity'
-require 'License'
-require 'History'
+require_relative 'EnforcementMechanism'
+require_relative 'Action'
+require_relative 'Context'
+require_relative 'Interpreter'
+require_relative 'RestrictedActivity'
+require_relative 'License'
+require_relative 'History'
 
 def build_actions
   return {

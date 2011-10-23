@@ -1,5 +1,5 @@
 require 'test/unit'
-require 'EnforcementMechanism'
+require_relative 'EnforcementMechanism'
 
 class EnforcementMechanismTest < Test::Unit::TestCase
   
